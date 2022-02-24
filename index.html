@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS and JS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Noto+Serif+Display&family=Roboto+Condensed:wght@300;700&family=Teko:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/aefaa05169.js" crossorigin="anonymous"></script>
+
+  <title>Bamboo Sushi</title>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+
+  <header>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <h1 class="text-uppercase">Bamboo<span class="sushi-title"> Sushi</span></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- sidebar menu -->
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item main-links">
+                <a class="nav-link active" aria-current="page" href="#">Menus</a>
+              </li>
+              <li class="nav-item main-links">
+                <a class="nav-link" href="#">Locations</a>
+              </li>
+              <li class="nav-item main-links">
+                <a class="nav-link" href="#">Sustainability</a>
+              </li>
+              <li class="nav-item main-links">
+                <a class="nav-link" href="#">Catering & Events</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Press</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CAROUSEL -->
+
+  <section id="carousel-items">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/sushi-roll.jpg" class="d-block w-100" alt="sushi roll">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sushi-bowl.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sushi-table.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- INFORMATION -->
+
+  <section id="information">
+
+    <!-- locations & hours -->
+    <div class="locations">
+      <div class="basic-info">
+        <h1 class="portland-ne">Portland NE</h1>
+        <div class="hours-current">
+          <span class="hours-today">HOURS TODAY</span>
+          <span class="time">4:00pm - 9:00pm</span>
+        </div>
+        <div class="contact-info">
+          <a href="https://www.google.com/maps/place/Bamboo+Sushi/@45.5592308,-122.6535139,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a71f2589f889:0x43d9b17a6ada3169!8m2!3d45.5592308!4d-122.6513252" target="_blank" class="address">1409 NE Alberta St Portland,
+            OR 97211</a>
+          <br>
+          <a href="tel:5038890336" class="contact-number">503-889-0336</a>
+        </div>
+      </div>
+      <!-- reservations / menus -->
+      <div class="d-grid gap-2 resv-menu">
+        <button class="btn btn-primary resv-menu-links" type="button">make a reservation</button>
+        <button class="btn btn-primary resv-menu-links" type="button">start an online order</button>
+        <button class="btn btn-primary resv-menu-links" type="button">view menu</button>
+        <button class="btn btn-primary resv-menu-links" type="button">happy hour</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER / NEWSLETTER -->
+
+  <!-- SVG Generator -->
+  <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+        <stop stop-color="rgba(33, 50, 94, 1)" offset="0%"></stop>
+        <stop stop-color="rgba(33, 50, 94, 1)" offset="100%"></stop>
+      </linearGradient>
+    </defs>
+    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+      d="M0,112L40,96C80,80,160,48,240,50.7C320,53,400,91,480,93.3C560,96,640,64,720,42.7C800,21,880,11,960,26.7C1040,43,1120,85,1200,90.7C1280,96,1360,64,1440,64C1520,64,1600,96,1680,98.7C1760,101,1840,75,1920,58.7C2000,43,2080,37,2160,29.3C2240,21,2320,11,2400,13.3C2480,16,2560,32,2640,34.7C2720,37,2800,27,2880,37.3C2960,48,3040,80,3120,93.3C3200,107,3280,101,3360,90.7C3440,80,3520,64,3600,48C3680,32,3760,16,3840,18.7C3920,21,4000,43,4080,61.3C4160,80,4240,96,4320,90.7C4400,85,4480,59,4560,56C4640,53,4720,75,4800,80C4880,85,4960,75,5040,72C5120,69,5200,75,5280,88C5360,101,5440,123,5520,128C5600,133,5680,123,5720,117.3L5760,112L5760,160L5720,160C5680,160,5600,160,5520,160C5440,160,5360,160,5280,160C5200,160,5120,160,5040,160C4960,160,4880,160,4800,160C4720,160,4640,160,4560,160C4480,160,4400,160,4320,160C4240,160,4160,160,4080,160C4000,160,3920,160,3840,160C3760,160,3680,160,3600,160C3520,160,3440,160,3360,160C3280,160,3200,160,3120,160C3040,160,2960,160,2880,160C2800,160,2720,160,2640,160C2560,160,2480,160,2400,160C2320,160,2240,160,2160,160C2080,160,2000,160,1920,160C1840,160,1760,160,1680,160C1600,160,1520,160,1440,160C1360,160,1280,160,1200,160C1120,160,1040,160,960,160C880,160,800,160,720,160C640,160,560,160,480,160C400,160,320,160,240,160C160,160,80,160,40,160L0,160Z">
+    </path>
+  </svg>
+
+  <footer id="footer">
+
+    <!-- newsletter & sign up -->
+    <div class="newsletter">
+      <div class="news-logo">
+        <h1 class="second-bamb-title">BAMBOO <span class="second-sushi-title"> SUSHI</span></h1>
+      </div>
+      <div class="news-input">
+        <p class="subscribe-text">
+          Subscribe to the newsletter to receive the freshest catch of
+          news and events happening at your local Bamboo.</p>
+        <form class="news-form" action="index.html" method="post">
+          <input class="input-box" type="email" placeholder="Your email address" name="email-newsletter" value="">
+          <button class="news-button" type="submit" name="button">sign me up</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- terms and privacy -->
+    <div class="add-info">
+      <hr>
+      <div class="general-terms">
+        <span><a class="privacy-terms" href="#">Privacy Policy</a>
+          <span class="no-link-dash"> | </span>
+          <a class="privacy-terms" href="#">Terms of Use</a></span>
+      </div>
+      <div class="rights-icons">
+        <div class="rights">
+          <p class="rights-res">2021 - 2022 All Rights Reserved © Bamboo Sushi</p>
+          <p class="rights-res">Website clone by <a class="andres" href="https://github.com/andyinho" target="_blank">Andres Baeza</a></p>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/bamboosushipdx/" target="_blank"><span class="fa-brands fa-facebook fa-3x"></span></a>
+          <a href="https://www.instagram.com/bamboosushi/" target="_blank"><span class="fa-brands fa-instagram fa-3x"></span></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

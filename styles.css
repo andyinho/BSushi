@@ -1,0 +1,343 @@
+h1 {
+  margin: 0;
+}
+
+hr {
+  color: #DACC96;
+  height: 10px;
+  border-width: thick;
+}
+
+/* OFF CANVAS SIDEBAR */
+.navbar-toggler {
+  border-style: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 2rem;
+  color: #000;
+}
+
+.text-uppercase {
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.sushi-title {
+  font-family: 'Teko', sans-serif;
+  font-weight: lighter;
+}
+
+.main-links {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* INFORMATION */
+.locations {
+  margin: 5%;
+}
+
+.portland-ne {
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.hours-today {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  background-color: #557C55;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.time {
+  font-family: 'Blinker', sans-serif;
+  font-size: 1.1rem;
+  padding-left: 7px;
+  font-weight: bolder;
+}
+
+.contact-info {
+  margin: 10px 0;
+}
+
+.address {
+  font-family: 'Blinker', sans-serif;
+  font-weight: bolder;
+  color: #185b59;
+  cursor: pointer;
+}
+
+.address:hover {
+  font-family: 'Blinker', sans-serif;
+  font-weight: bolder;
+  color: #DACC96;
+  cursor: pointer;
+}
+
+.contact-number {
+  color: #185b59;
+  cursor: pointer;
+}
+
+.contact-number:hover {
+  color: #DACC96;
+  cursor: pointer;
+}
+
+/* RESERVATIONS & MENU */
+.resv-menu {
+  margin-top: 40px;
+}
+
+.resv-menu-links {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #21325E;
+  border-color: #21325E;
+  margin: 5px 0;
+  padding: 10px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.resv-menu-links:hover {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #DACC96;
+  border-color: #DACC96;
+  margin: 5px 0;
+  padding: 10px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* FOOTER / NEWSLETTER */
+#footer {
+  background-color: #21325E;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .newsletter { /* controls whole newsletter area */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .newsletter .news-logo { /* controls bamboo sushi logo area */
+    font-family: 'Teko', sans-serif;
+    align-self: center;
+    margin-left: 3%;
+    margin-top: 30px;
+    color: #fff;
+  }
+  .newsletter .news-input { /* controls whole newsletter and input block area */
+    align-self: center;
+    margin-right: 3%;
+    max-width: 27.25rem;
+    width: 100%
+  }
+
+  .second-bamb-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+  }
+
+  .second-sushi-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+  }
+
+  .subscribe-text { /* subscribe paragraph */
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .news-form { /* controls input and button area */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-box { /* controls input box */
+    width: 300px;
+  }
+
+  .news-button { /* controls button */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+    background-color: #D4AC2B;
+    color: #21325E;
+    font-weight: bold;
+    padding: 10px 12px;;
+    border-style: none;
+    border-radius: 2px;
+  }
+
+  .news-button:hover { /* controls button */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+    background-color: #DACC96;
+    color: #21325E;
+    font-weight: bold;
+    padding: 10px 12px;;
+    border-style: none;
+    border-radius: 2px;
+  }
+
+  .rights-icons { /* makes icons on same line as rights reserved, while at end of page */
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 991px) { /* controls whole newsletter area on smaller devices*/
+  .newsletter {
+    display: block;
+    padding-bottom: 1rem;
+  }
+
+  .newsletter .news-logo { /* controls bamboo sushi logo area */
+    font-family: 'Teko', sans-serif;
+    align-self: center;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+  }
+
+  .subscribe-text { /* subscribe paragraph */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    white-space: pre-line;
+    text-align: center;
+  }
+
+  .news-form { /* controls input and button area */
+    display: flex;
+    justify-content: center;
+  }
+
+  .input-box { /* controls input box */
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .second-bamb-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    padding-top: 30px;
+  }
+
+  .second-sushi-title {
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+  }
+
+  .news-button { /* controls button */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+    background-color: #D4AC2B;
+    color: #21325E;
+    font-weight: bold;
+    padding: 10px 12px;;
+    border-style: none;
+    border-radius: 2px;
+  }
+
+  .news-button:hover { /* controls button */
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+    background-color: #DACC96;
+    color: #21325E;
+    font-weight: bold;
+    padding: 10px 12px;;
+    border-style: none;
+    border-radius: 2px;
+  }
+
+  .add-info {
+    margin: 0 3%;
+    text-align: center;
+  }
+
+  .rights {
+    display: block;
+  }
+
+  .fa-brands {
+    color: #fff;
+    padding: 0 15px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+  }
+}
+
+/* privacy and terms */
+.add-info {
+  margin: 0 3%;
+}
+
+.general-terms {
+  margin-bottom: 12px;
+}
+
+.privacy-terms {
+  text-decoration: none;
+  color: #fff;
+}
+
+.privacy-terms:hover {
+  text-decoration: none;
+  color: #DACC96;
+}
+
+.no-link-dash {
+  color: #fff;
+}
+
+.rights-res {
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.andres {
+  color: #fff;
+}
+
+.andres:hover {
+  color: #DACC96;
+
+}
+
+.fa-brands {
+  color: #fff;
+  padding: 0 15px;
+}
+
+.fa-brands:hover {
+  color: #DACC96;
+  padding: 0 15px;
+}
